@@ -1,16 +1,17 @@
-### Hi there 👋
+### Hi there 👋 
+Welcome to my GitHub profile.
 
-<!--
-**arm666/arm666** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```jsx
+import React from 'react';
 
-Here are some ideas to get you started:
+const Greeting = () => {
+  return (
+    <div>
+      <h1>Hi there 👋</h1>
+      <p>Welcome to my GitHub profile.</p>
+    </div>
+  );
+};
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+export default Greeting;
+```
